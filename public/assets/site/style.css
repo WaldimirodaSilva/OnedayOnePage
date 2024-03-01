@@ -1,0 +1,121 @@
+/* Importa estilos CSS padrão dos componentes */
+@import url('../core.css');
+
+/* Estilos para o corpo da página */
+body {
+    background: var(--dark-color);
+    color: #fff;
+}
+
+/* Estilos para o cabeçalho da página */
+header {
+    display: flex;
+    padding: 20px 50px;
+}
+
+/* Estilos para a barra de navegação */
+.nav-site {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Estilos para o logotipo da página */
+.brand img {
+    width: 20%;
+}
+
+/* Estilos para os itens de navegação */
+.nav-site .nav-site-item {
+    display: flex;
+    gap: 20px;
+}
+
+/* Estilos para os links nos itens de navegação */
+.nav-site .nav-site-item li a {
+    font-weight: 600;
+}
+
+/* Estilos para o conteúdo principal da página */
+.container-site {
+    padding: 20px 50px 10px 50px;
+}
+
+/* Estilos para a carga do template */
+.site-templete-load p {
+    font-weight: 500;
+    color: var(--gray-color);
+}
+
+/* Estilos para a lista de categorias do site */
+.site-categoria-toggle {
+    display: flex;
+    gap: 20px;
+}
+
+/* Estilos para os itens da lista de categorias */
+.site-categoria-toggle li {
+    padding: 4px 20px;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+/* Estilos para o item ativo da lista de categorias */
+.site-categoria-toggle li.ativo {
+    background: var(--primary-color);
+    border-radius: 8px;
+}
+
+/* Estilos para a lista de templates do site */
+.site-list-template {
+    padding: 10px 50px;
+    position: relative;
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+    grid-gap: 10px;
+}
+
+/* Estilos para cada template na lista */
+.template {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+/* Estilos quando o cursor passa sobre um template */
+.template:hover {
+    color: #fff;
+}
+
+/* Estilos para as imagens de conteúdo dos templates */
+.template .template-content-img img {
+    height: 300px;
+    width: 100%;
+    border-radius: 8px;
+    border: 1px solid var(--gray-color);
+}
+
+/* Estilos para o rodapé da página */
+.template .template-content-footer {
+    padding: 0px 10px;
+}
+
+/* Estilos para os títulos nos rodapés dos templates */
+.template .template-content-footer h6 {
+    font-weight: bold;
+}
+
+/* Estilos para o texto pequeno nos rodapés dos templates */
+.template .template-content-footer small {
+    color: var(--gray-color);
+}
+
+/* Estilos para o rodapé da página */
+footer {
+    display: flex;
+    justify-content: center;
+    padding: 100px 50px;
+}
+
