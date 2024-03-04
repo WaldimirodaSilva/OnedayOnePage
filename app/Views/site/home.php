@@ -13,13 +13,13 @@
 	 	</section>
 	 	<section class="site-list-template">
 	 		<!--item start -->
-	 		<a href="#" class="template">
+	 		<a href="<?=URL?>/templates/bfa" class="template">
 	 			<div class="template-content-img">
-	 				<!--<img src="<?=URL?>/public/assets/templates/bai/img/bai.png">-->
+	 				<!--<img src="<?=URL?>/public/assets/templates/fba/img/wiframe.png">-->
 	 				<img src="">
 	 			</div>
 	 			<div class="template-content-footer">
-	 				<h6>Bai</h6>
+	 				<h6>BFA</h6>
 	 				<small>Clone</small>
 	 			</div>
 	 		</a>

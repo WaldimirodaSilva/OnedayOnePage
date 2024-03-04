@@ -6,7 +6,7 @@
     border: none;
     outline: none;
     font-weight: 300;
-    font-family: 'Gellix', sans-serif !important;
+    font-family: 'Gellix', sans-serif;
     transition: 0.3s;
 }
 
@@ -173,6 +173,6 @@ ul{
 }
 /*Resposividade para imagens */
 img{
-  max-width: 100%;
-  height: auto;
+  max-width:100% !important;
+  height: auto !important;
 }
